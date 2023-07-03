@@ -2,4 +2,4 @@
 
 ## by Tony Baldessari
 
-Live demo at:
+Live demo at: https://tonybalde.github.io/arg-pro-css-animations-transitions/
