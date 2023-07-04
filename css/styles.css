@@ -40,6 +40,7 @@ body{
 }
 
 #ball1 {
+
     top: 80px;
     bottom: 100px;
     left: 50px;
@@ -47,15 +48,23 @@ body{
 }
 
 #ball1:hover{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     background-color: transparent;
     border-top: transparent;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-bottom: 80px solid black;
     color: white;
+    line-height: 80px;
 }
 
 #ball2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     top: 60px;
     bottom: 55px;
     left: 230px;
@@ -74,8 +83,11 @@ body{
        
 }
 
-.pie{
-    margin-top: 120px;
+#ball2, #ball3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -93,7 +105,11 @@ body{
     height: 70px;
     border-radius: 1px;
     transform: scale(120%);
+    color: white;
+}
 
+.pie{
+    margin-top: 120px;
 }
 
 footer{
