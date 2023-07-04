@@ -52,6 +52,7 @@ body{
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-bottom: 80px solid black;
+    color: white;
 }
 
 #ball2 {
@@ -98,7 +99,7 @@ footer{
     text-align: center;
     color: beige;
     font-size: 18px;
-    font-weight: 500;
+    
 }
 
 footer > a {
@@ -108,12 +109,18 @@ footer > a {
 footer > a > span {
     color: white;
     transition: .3s ease;
+    font-weight: 900;
+}
+
+footer > a > span:hover{
+    color: rgb(37, 165, 250);
+    
 }
 
 footer > a:hover{
-    color: white;
-    font-weight: 900;
-    transform: scale(120%);
+    color: rgb(37, 51, 250);
+    text-decoration: underline;
+    
 }
 
 
